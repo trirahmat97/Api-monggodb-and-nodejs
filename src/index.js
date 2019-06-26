@@ -5,7 +5,7 @@ const userRouter = require('./router/user');
 const taskRouter = require('./router/task');
 const auth = require('../src/midleware/auth');
 
-const port = process.env.port || 3000;
+const port = process.env.PORT;
 
 const multer = require('multer');
 const upload = multer({
